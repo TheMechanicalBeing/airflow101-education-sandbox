@@ -15,7 +15,7 @@ airflow:
       conn_password:
       conn_port:
       conn_extra:
-        example_extra_field: example-value
+        path: /usr/local/airflow/include/
   pools:
     - pool_name:
       pool_slot:
